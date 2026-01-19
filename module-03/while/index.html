@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>While | Do while</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="../../assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="../../assets/favicon/favicon.svg"
+    />
+    <link rel="shortcut icon" href="../../assets/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../../assets/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="../../assets/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="../../assets/mustard-ui.min.css" />
+    <link rel="stylesheet" href="../../assets/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container container-small">
+        <h1 class="title">While | Do while</h1>
+        <h2 class="subtitle">
+          Click on the down arrow and go to the problem solving
+        </h2>
+        <h3 class="subtitle">Happy coding 👨‍💻</h3>
+        <a class="scroll-down" href="#start"></a>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Task 1 -->
+      <section id="start">
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 1.</p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Кнопка b-1 запускає функцію fn1. Функція повинна виводити в .out-1
+              рядок вигляду (... це просто для скорочення тут. Ви виводите всі
+              числа від 1 до 50. Три крапки ми не виводимо!!!!!)
+            </p>
+            <pre>1_2_3_4_5_6_7_8_9_ ... 49_50_</pre>
+            <p>
+              від 1 до 50 включно. Роздільник — знак підкреслення. Завдання
+              вирішується за допомогою циклу.
+            </p>
+            <button class="button-primary b-1">Task-1</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-1"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 2 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 2.</p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Кнопка b-2 запускає функцію fn2. Функція повинна виводити в .out-2
+              рядок вигляду (ви виводите всі числа з кроком 2 без пропуску. Три
+              крапки не виводите! Пропуску чисел з 6 по 44 немає.):
+            </p>
+            <pre>2_4_6_ ... 44_46_</pre>
+            <p>
+              від 2 до 46 з кроком 2. Роздільник — знак підкреслення. Завдання
+              вирішується за допомогою циклу while.
+            </p>
+            <button class="button-primary b-2">Task-2</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-2"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 3 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 3.</p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Кнопка .b-3 запускає функцію fn3. Функція повинна виводити в
+              .out-3 рядок вигляду:
+            </p>
+            <pre>
+              25_24_23_22_21_20_19_18_17_16_15_14_13_12_11_10_9_8_7_
+            </pre>
+            <p>
+              від 25 до 7 з кроком 1. Роздільник — знак підкреслення. Завдання
+              вирішується за допомогою циклу while.
+            </p>
+            <button class="button-primary b-3">Task-3</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-3"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 4 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 4.</p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Кнопка b-4 запускає функцію fn4. Функція повинна виводити в .out-4
+              рядок вигляду:
+            </p>
+            <pre>77_74_71_68_65_62_59_56_53_50_47_44_41_38_35_</pre>
+            <p>
+              від 77 до 35 з кроком 3. Роздільник — знак підкреслення. Завдання
+              вирішується за допомогою циклу while.
+            </p>
+            <button class="button-primary b-4">Task-4</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-4"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 5 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 5.</p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Кнопка .b-5 запускає функцію fn5. Функція повинна виводити в
+              .out-5 рядок вигляду:
+            </p>
+            <pre>
+              1_*2_**3_*4_**5_*6_**7_*8_**9_*10_**11_*12_**13_*14_**15_*16_**17_*
+            </pre>
+            <p>
+              від 1 до 17 з кроком 1. Роздільник — знак підкреслення та одна
+              зірочка, якщо число непарне, і дві зірочки, якщо парне. Завдання
+              вирішується за допомогою циклу while.
+            </p>
+            <button class="button-primary b-5">Task-5</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-5"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 6 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 6.</p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Кнопка .b-6 запускає функцію fn6. Функція повинна виводити в
+              .out-6 рядок вигляду:
+            </p>
+            <pre>
+              ******<br />
+              ******<br />
+              ******<br />
+            </pre>
+            <p>
+              Завдання вирішується за допомогою циклу. У кожній ітерації цикл
+              виводить 6 зірочок без пробілів і символ перенесення рядка br.
+              Кількість рядків (ітерацій, повторень) циклу while вводить
+              користувач в .i-6.
+            </p>
+            <button class="button-primary b-6">Task-6</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-6"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 7 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 7.</p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Є input .i-7, куди користувач може ввести число більше нуля
+              (перевірок не робимо, приймаємо як факт).
+            </p>
+            <p>
+              Після натискання кнопки .b-7 повинна запускатися функція f7, яка
+              виводить в .out-7 числа від введеного користувачем до нуля
+              включно.
+            </p>
+            <p>
+              Роздільник — знак підкреслення. Якщо користувач ввів 4 і натиснув
+              кнопку, ми отримаємо:
+            </p>
+            <pre>4_3_2_1_0_</pre>
+            <p>Завдання вирішується за допомогою циклу while.</p>
+            <input type="number" class="i-7" />
+            <button class="button-primary b-7">Task-7</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-7"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 8 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 8.</p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Є input .i-81 та .i-82, куди користувач може ввести числа більше
+              нуля (перевірок не робимо, приймаємо як факт).
+            </p>
+            <p>Вважаємо, що друге число завжди більше першого.</p>
+            <p>
+              Після натискання кнопки .b-8 повинна запускатися функція f8, яка
+              виводить в .out-8 числа від першого введеного до другого включно,
+              з кроком 1.
+            </p>
+            <p>
+              Роздільник — знак підкреслення. Якщо користувач ввів 4 і 8 і
+              натиснув кнопку, ми отримаємо:
+            </p>
+            <pre>4_5_6_7_8_</pre>
+            <p>Завдання вирішується за допомогою циклу while.</p>
+
+            <div>Input i-81 <input type="number" class="i-81" /></div>
+            <div>Input i-82 <input type="number" class="i-82" /></div>
+
+            <button class="button-primary b-8">Task-8</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-8"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 9 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 9.</p>
+          </div>
+          <div class="panel-body">
+            <p>Є input .i-91 та .i-92, куди користувач може ввести числа.</p>
+            <p>
+              Після натискання кнопки .b-9 повинна запускатися функція f9, яка
+              виводить в .out-9 числа від меншого введеного до більшого включно,
+              з кроком 1.
+            </p>
+            <p>
+              Роздільник — знак підкреслення. Якщо користувач ввів 4 і 8 і
+              натиснув кнопку, ми отримаємо:
+            </p>
+            <p class="cd">4_5_6_7_8_</p>
+            <p>якщо ввів 8 і 6, то отримаємо</p>
+            <p class="cd">6_7_8_</p>
+            <p>
+              Завдання вирішується за допомогою циклу. Підказка — спочатку
+              робимо перевірку і за необхідності міняємо місцями значення в
+              змінних, а потім запускаємо цикл while.
+            </p>
+
+            <div>Input i-91 <input type="number" class="i-91" /></div>
+            <div>Input i-92 <input type="number" class="i-92" /></div>
+
+            <button class="button-primary b-9">Task-9</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-9"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 10 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 10.</p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Кнопка .b-10 запускає функцію fn10. Функція повинна виводити в
+              .out-10 парні роки від 1950 до 1966 включно.
+            </p>
+            <p>
+              Роздільник — знак підкреслення. Завдання вирішується через цикл, а
+              парність — через крок (рівний 2).
+            </p>
+            <button class="button-primary b-10">Task-10</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-10"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 11 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 11.</p>
+          </div>
+          <div class="panel-body">
+            <p>Кнопка b-11 запускає функцію fn11. Функція повинна:</p>
+            <ul>
+              <li>отримати всі div.div-11</li>
+              <li>
+                перебрати їх за допомогою циклу while. Звернення до div виглядає
+                так: ваша_змінна[i]
+              </li>
+              <li>
+                вивести в .out-11 вміст кожного блоку. Роздільник — знак
+                підкреслення.
+              </li>
+            </ul>
+            <p>В результаті повинно вийти так:</p>
+            <pre>one_3_4_two_</pre>
+            <div class="div-11">one</div>
+            <div class="div-11">3</div>
+            <div class="div-11">4</div>
+            <div class="div-11">two</div>
+            <button class="button-primary b-11">Task-11</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-11"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 12 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 12.</p>
+          </div>
+          <div class="panel-body">
+            <p>Кнопка .b-12 запускає функцію fn12. Функція повинна:</p>
+            <ul>
+              <li>отримати всі div.div-12</li>
+              <li>
+                перебрати їх за допомогою циклу while. Звернення до div виглядає
+                так: elem[i]
+              </li>
+              <li>
+                застосувати до кожного elem[i].style.background = 'orange'
+              </li>
+            </ul>
+            <div class="div-12">Div 12</div>
+            <div class="div-12">Div 12</div>
+            <div class="div-12">Div 12</div>
+            <button class="button-primary b-12">Task-12</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-12"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 13 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 13.</p>
+          </div>
+          <div class="panel-body">
+            <p>Кнопка .b-13 запускає функцію fn13. Функція повинна:</p>
+            <ul>
+              <li>отримати всі input.i-13</li>
+              <li>
+                перебрати їх за допомогою циклу while. Звернення до елемента
+                виглядає так: elem[i]
+              </li>
+              <li>
+                застосувати до кожного elem[i].value, причому value першого має
+                дорівнювати 1, другого — 2, третього — 3...
+              </li>
+            </ul>
+            <div>
+              <label>Input i-13 <input type="text" class="i-13" /></label>
+            </div>
+            <div>
+              <label>Input i-13 <input type="text" class="i-13" /></label>
+            </div>
+            <div>
+              <label>Input i-13 <input type="text" class="i-13" /></label>
+            </div>
+            <button class="button-primary b-13">Task-13</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-13"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 14 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 14.</p>
+          </div>
+          <div class="panel-body">
+            <p>Кнопка .b-14 запускає функцію fn14. Функція повинна:</p>
+            <ul>
+              <li>отримати всі input.i-14</li>
+              <li>
+                перебрати їх за допомогою циклу while. Звернення до елемента
+                виглядає так: elem[i]
+              </li>
+              <li>
+                вивести в .out-14 value обраного. Перевірити, чи обраний
+                елемент, можна за допомогою elem[i].checked.
+              </li>
+            </ul>
+            <fieldset>
+              <legend>Input i-14</legend>
+              <div>
+                <label>
+                  <input
+                    type="radio"
+                    name="i-14"
+                    class="i-14"
+                    checked
+                    value="333"
+                  />
+                  Radio 1
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="radio" name="i-14" class="i-14" value="444" />
+                  Radio 2
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="radio" name="i-14" class="i-14" value="555" />
+                  Radio 3
+                </label>
+              </div>
+            </fieldset>
+            <button class="button-primary b-14">Task-14</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-14"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 15 -->
+      <section>
+        <div class="panel">
+          <div class="panel-head">
+            <p class="panel-title">Task 15.</p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Кнопка .b-15 запускає функцію fn15. Функція повинна виводити
+              наступну послідовність в .out-15:
+            </p>
+            <pre>77_88_99_77_88_99_77_88_99_</pre>
+            <p>Для виведення використовувати цикл while.</p>
+            <button class="button-primary b-15">Task-15</button>
+          </div>
+          <div class="panel-footer">
+            <h6>Output</h6>
+            <blockquote>
+              <div class="out-15"></div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
